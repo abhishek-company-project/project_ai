@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:#020617;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+}
+
+.btn{
+    background:#6366f1;
+    border:none;
+    padding:10px 18px;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/* Hero */
+
+.hero{
+    height:80vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    margin-bottom:20px;
+}
+
+/* Products */
+
+.products{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.product-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.product-card{
+    background:#1e293b;
+    padding:30px;
+    width:250px;
+    border-radius:10px;
+}
+
+/* Pricing */
+
+.pricing{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.price-card{
+    background:#1e293b;
+    padding:30px;
+    width:250px;
+    border-radius:10px;
+}
+
+/* Testimonials */
+
+.testimonials{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.testimonial-card{
+    background:#1e293b;
+    padding:25px;
+    width:250px;
+    border-radius:10px;
+}
+
+/* Footer */
+
+.footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
